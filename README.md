@@ -1,5 +1,7 @@
 # Fix OneTab - Recovery and Repair Tool
 
+*(Note: this is a hastily created set of scripts given some sword-fighting I've had with it of late. I'm looking to move (or fork, or build) another inactive tab creation tool that is more recently maintained. According to the app info, it hasn't been updated since sometime in 2024 for Chrome and 2023 for FireFox. But knowing it's still widely popular, I figured I'd post this as likely google-chrome browser updates on the Ubuntu 24.04 based distros, I came across a problem where the extension won't load the URLs. So here's a rough solution. I'm happy to expand, update and maintain if the requests arrive. Otherwise feel free to fork and develop it for problems this may in some way apply!)*
+
 This tool helps recover and potentially repair Chrome's OneTab extension when it stops rendering tab links properly. The OneTab extension stores data in Chrome's LevelDB database, and this tool can extract your saved tabs even when the extension UI isn't functioning.
 
 ## Problem Description
